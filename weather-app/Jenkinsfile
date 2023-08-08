@@ -28,7 +28,7 @@ pipeline {
                 expression { currentBuild.resultIsBetterOrEqualTo('SUCCESS') }
             }
             steps {
-                // Deploy the application, replace rteplacewith your deployment commands
+                // Deploy the application, replaceb with your deployment commands
                 sh 'npm deploy'
             }
         }
